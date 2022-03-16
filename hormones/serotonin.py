@@ -47,7 +47,7 @@ class Serotonin:
         while True:
             serotoninLevel = Serotonin.serotoninLevel
             Serotonin.serotoninLevel = serotoninLevel - (self * getSelfChangingFactor(serotoninLevel))
-            print("Current SEROTONIN level: " + str(Serotonin.serotoninLevel))
+            # print("Current SEROTONIN level: " + str(Serotonin.serotoninLevel))
             sleep(0.33)
 
     @staticmethod
